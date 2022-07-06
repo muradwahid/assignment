@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: rgb(34, 34, 34);
+}
+h2{
+    font-size: 40px;
+    margin: 20px;
+}
+h3{
+    font-size: 30px;
+    margin:20px 0 ;
+}
+p{
+    color: #555555;
+}
+.height{
+    height: 600px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.header{
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+
+}
+.header h1{
+    color: aliceblue;
+}
+.header p{
+    color: aliceblue;
+}
+.pg{
+    margin: 15px auto;
+    width: 500px;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 15px 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color:#ad25ad;
+    text-decoration: none;
+}
+.donate-sec .donate-mony{
+    display: flex;
+    width: 690px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 700
+}
+.donate-mony .tk{
+    margin: 5px;
+    padding:35px 20px;
+    
+    background-color: #f1f1f1;
+}
+#b-style{
+    border: 2px solid #ad25ad;
+}
+.donate-sec .form{
+    width: 50%;
+    margin: 40px auto;
+}
+.donate-sec .form input{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #969595;
+}
+.form input::placeholder{
+    text-align: center;
+    font-size: 18px;
+}
+button{
+    margin-top: 40px;
+    border: none;
+}
+.dn-pr{
+    display: flex;
+    justify-content: center;
+}
+.dn-hlp img{
+    margin-left: 5px;
+}
+.dn-pr .dn-hlp{
+    width: 300px;
+    background-color: #7fffd438;
+    margin: 10px;
+    padding:40px 20px;
+    border-radius: 5px;
+}
+.dn-hlp:nth-child(2){
+    background-color:#0468ec38;
+}
+.dn-hlp:nth-child(3){
+    background-color: #ffa60038;
+}
